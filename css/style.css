@@ -1,0 +1,201 @@
+
+body {
+	color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  
+}
+
+}
+p {
+	font-weight: 600;
+	line-height: 2;
+}
+ h1 {
+   margin: 30px auto 0 auto;
+   font-family: 'Sacramento', cursive; 
+   font-size: 4.26em;
+   color: #66BFBF;
+   width: 50%;
+ }
+
+
+ h2 {
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 250%;
+ 	color: #66BFBF;
+ 	font-weight: normal;
+ }
+
+ h3 {
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #11999E;
+ }
+
+.top-container {
+    background-color: #e9f9f5;
+    position: relative;
+    padding-top: 100px;
+ }
+
+span {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  size: 5%;
+}
+.rang {
+	width: 100%
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+}
+
+.bottom-container a {
+	color: #11999E;
+	text-decoration: none;
+	margin: 10px 20px;
+	font-family:'Montserrat', sans-serif;
+
+}
+
+a:hover {
+	color: #EAF6F6
+}
+.pic {
+	border-radius: 600px;
+	height: 200px;
+	
+}
+
+
+.skill-row {
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.pro {
+	width: 25%;
+	float: left;
+	margin-right:30px;
+}
+
+.intro {
+	width: 32%;
+	margin: auto;
+}
+
+.drum {
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+
+.bottom-container {
+	background-color: #66BFBF;
+	padding: 50px 0 20px;
+	
+}
+
+.bottom-container p {
+	color: #EAF6F6;
+	 
+
+}
+
+hr {
+	border-style: none;
+	border-bottom: dotted;
+	border-width: 8px;
+	width: 5%;
+	color: #EAF6F6;
+	margin: 100px auto;
+}
+
+.middle-container {
+	margin: 100px 0;
+}
+
+.contact-msg {
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
+
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #98d6e0;
+	background:linear-gradient(to bottom, #48c3f0 5%, #18abc2 100%);
+	background-color:#48c3f0;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #18abc2 5%, #48c3f0 100%);
+	background-color:#18abc2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.copy {
+	color: #EAF6F6
+	font-size: 0.75rem;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.mountain {
+	width: 55%;
+}
+
+
+
+
+@media (max-width: 767px) {
+	.bottom-cloud {
+		width: 90px;
+		
+		
+		left: 15px;
+		bottom: 150px;
+
+	}
+
+	.top-cloud {
+		width: 100px;
+	}
+
+	.proo {
+		font-size: 20px;
+	}
+
+	.mountain {
+		width: 90%;
+		
+	}
+}
